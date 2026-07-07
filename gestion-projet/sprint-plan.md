@@ -24,8 +24,8 @@
 - [x] Module CRUD idempotent via API GitLab (avec diff + delete)
 - [x] Tests unitaires — 19 tests
 
-## Sprint 5 : Conformité & Réapplication
-- Moteur de vérification de conformité
-- Réapplication différentielle
-- Tests d'intégration
-- Documentation finale
+## Sprint 5 : Conformité & Réapplication ✅
+- [x] Moteur de vérification de conformité (app/compliance.py)
+- [x] Réapplication différentielle (--check-only + compliance report)
+- [x] Tests d'intégration — 7 tests
+- [x] Documentation finale (README.md)

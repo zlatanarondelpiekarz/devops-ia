@@ -32,10 +32,14 @@
 
 ---
 
-## 📋 Backlog
+## ✅ Done (suite)
 
 ### Sprint 5 : Conformité & Réapplication
-- [ ] Moteur de vérification de conformité
-- [ ] Réapplication différentielle
-- [ ] Tests d'intégration
-- [ ] Documentation finale
+- [x] Moteur de vérification de conformité (app/compliance.py)
+- [x] Réapplication différentielle via compliance check + --check-only
+- [x] Tests d'intégration (tests/test_compliance.py) — 7 tests
+- [x] Documentation finale (README.md)
+
+---
+
+## 🎉 Tous les sprints sont terminés !
