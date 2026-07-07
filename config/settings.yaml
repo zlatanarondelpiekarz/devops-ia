@@ -1,0 +1,10 @@
+gitlab:
+  url: "https://gitlab.com"
+  project_id: ""
+  token: ""
+
+rules:
+  path: "rules/rules.yaml"
+
+logging:
+  level: "INFO"

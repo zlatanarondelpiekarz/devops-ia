@@ -1,0 +1,35 @@
+protected_branches:
+  - name: main
+    push_access_level: 40
+    merge_access_level: 40
+    allow_force_push: false
+    code_owner_approval_required: true
+
+  - name: develop
+    push_access_level: 30
+    merge_access_level: 30
+    allow_force_push: false
+    code_owner_approval_required: false
+
+  - name: release/*
+    push_access_level: 40
+    merge_access_level: 40
+    allow_force_push: false
+    code_owner_approval_required: true
+
+merge_requests:
+  merge_method: merge
+  pipeline_required: true
+  discussions_resolved: true
+  remove_source_branch: true
+
+approval_rules:
+  - name: main-approval
+    approvals_required: 2
+    rule_type: regular
+    branch_name: main
+
+  - name: develop-approval
+    approvals_required: 1
+    rule_type: regular
+    branch_name: develop
